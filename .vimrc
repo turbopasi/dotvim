@@ -18,20 +18,42 @@ set runtimepath^=~/.vim/bundle/vim-airline/plugin/airline.vim
 syntax on
 color dracula
 set smartindent
+set shiftwidth=2
+set tabstop=2
 set clipboard=unnamed
+set softtabstop=2
+set expandtab
 set number
+set cursorline
 set showmatch
+set incsearch
+set hlsearch
 set noswapfile
+let g:jsx_ext_required = 0
 
 " airline
+let g:airline_theme='dark'
 let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#branch#enabled = 1
-let g:airline_left_sep = '❤'
-let g:airline_right_sep = '❤'
+let g:airline_left_sep = ' + '
+let g:airline_right_sep = ' + '
 let g:airline_section_warning = ''
 let g:airline_section_y = ''
 let g:airline_section_x = ''
 set laststatus=2 " for airline
+
+" //// mappings ////
+
+" move between buffers
+map <C-Left> <Esc>:bprev<CR>
+map <C-Right> <Esc>:bnext<CR> 
+
+" nerd tree toggle
+map <C-b> :NERDTreeToggle<CR>
+
+" switch to left / right split 
+map <C-h> <C-W>h
+map <C-l> <C-W>l
 
 set noruler
 set noshowmode
