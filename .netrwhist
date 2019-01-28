@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/c/_NODE/ois.portal'
+let g:netrw_dirhist_2='/c/_NODE/ois.portal/src'
+let g:netrw_dirhist_3='/c/_NODE/ois.portal/src/_helpers'
+let g:netrw_dirhist_4='/c/_NODE/ois.portal'
+let g:netrw_dirhist_5='/c/_NODE'
+let g:netrw_dirhist_6='/c'
+let g:netrw_dirhist_7='/c/$Recycle.Bin'
+let g:netrw_dirhist_8='/c'
