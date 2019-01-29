@@ -5,6 +5,7 @@
 " + ctrlp
 " + vim-airline
 " + vim-airline-theme
+" + vim-vue
 " + vim-jsx-improve
 " + dracula colour theme
 " + nerdtree
