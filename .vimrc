@@ -4,6 +4,8 @@
 "
 " + ctrlp
 " + vim-airline
+" + vim-airline-theme
+" + vim-jsx-improve
 " + dracula colour theme
 " + nerdtree
 " + pathogen
@@ -18,6 +20,8 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 syntax on
 color dracula
+highlight Normal ctermbg=NONE
+highlight nonText ctermbg=NONE
 set smartindent
 set shiftwidth=2
 set tabstop=2
