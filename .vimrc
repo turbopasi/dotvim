@@ -11,6 +11,8 @@
 " + nerdtree
 " + pathogen
 
+set belloff=all
+
 call pathogen#infect()
 call pathogen#helptags()
 
