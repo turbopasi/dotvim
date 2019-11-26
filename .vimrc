@@ -18,7 +18,7 @@ call pathogen#helptags()
 
 set runtimepath^=~/.vim/bundle/vim-airline/plugin/airline.vim
 set runtimepath^=~/.vim/bundle/ctrlp.vim
-
+set runtimepath^=~/.vim/bundle/vim-surround/plugin/surround.vim
 " //// turbopasi settings ////
 
 syntax on
