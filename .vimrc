@@ -46,10 +46,10 @@ highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 
 " airline
-let g:airline_theme='dracula'
+let g:airline_theme='wombat'
 let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#branch#enabled = 1
-let g:airline_left_sep = ' <3  '
+let g:airline_left_sep = ' <3 '
 let g:airline_right_sep = ' + '
 let g:airline_section_warning = ''
 let g:airline_section_y = ''
